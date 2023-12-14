@@ -1,5 +1,9 @@
 # TransactionalSpringBoot
+
+
 POST: http://localhost:8080/api/v1/order
+
+
 {
     "order": {
         "totalQuantity": 2,
@@ -13,8 +17,5 @@ POST: http://localhost:8080/api/v1/order
         "expiryYear":2025,
         "expiryMonth":12,
         "cvc":123
-
-
     }
-
 }
